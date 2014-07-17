@@ -36,27 +36,27 @@
           </elementProp>
           <elementProp name="cmis.host" elementType="Argument">
             <stringProp name="Argument.name">cmis.host</stringProp>
-            <stringProp name="Argument.value">ec2-54-219-140-160.us-west-1.compute.amazonaws.com</stringProp>
+            <stringProp name="Argument.value">localhost</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="cmis.port" elementType="Argument">
             <stringProp name="Argument.name">cmis.port</stringProp>
-            <stringProp name="Argument.value">8888</stringProp>
+            <stringProp name="Argument.value">8080</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="cmis.url.context" elementType="Argument">
             <stringProp name="Argument.name">cmis.url.context</stringProp>
-            <stringProp name="Argument.value">alfresco/cmisatom</stringProp>
+            <stringProp name="Argument.value">alfresco/api/-default-/public/cmis/versions/1.1/atom</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="cmis.username" elementType="Argument">
             <stringProp name="Argument.name">cmis.username</stringProp>
-            <stringProp name="Argument.value">allyadmin</stringProp>
+            <stringProp name="Argument.value">admin</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="cmis.password" elementType="Argument">
             <stringProp name="Argument.name">cmis.password</stringProp>
-            <stringProp name="Argument.value">allyadmin</stringProp>
+            <stringProp name="Argument.value">admin</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="cmis.folder.path" elementType="Argument">
@@ -66,7 +66,7 @@
           </elementProp>
           <elementProp name="sample.file.dir" elementType="Argument">
             <stringProp name="Argument.name">sample.file.dir</stringProp>
-            <stringProp name="Argument.value">/Developer/Code/workspace-sts/cmis-jmeter-test/test-files</stringProp>
+            <stringProp name="Argument.value">/PATH_TO_MY_TEST_FILES/cmis-jmeter-test/test-files</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="processing.file.dir" elementType="Argument">
